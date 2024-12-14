@@ -10,7 +10,6 @@ The GameRunner class (game_runner.py) contains the logic related to the game and
 All agents are derived from the generic Agent class (abstract_agent.py):
 - tree_agent.py implements an agent taking its decisions according to a decision tree
 - minimax_agent.py represents a simple agent following the minimax algorithm
-- deepQ_agent.py represents a Q-learning agent
 - naive_deep_qlearning_agent.py is a "naive" Q-learning agent (cf. report for details), whose network is characterized by a large output layer. naive_deep_qlearning.py and naive_deep_qlearning_train.py perform the training of this agent. The agent can either be rewarded after each move, or at the end of a game. See the report for more details.
 - deepQ_agent.py is the improved version of this Q-learning agent, with a smaller and more convenient output layer. deepQ_utils.py and deepQ_train.py are used for its training.
 
