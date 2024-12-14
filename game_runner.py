@@ -1,5 +1,4 @@
 from abstract_agent import Agent
-from environment import Environment
 from board import Board
 import matplotlib.pyplot as plt
 import numpy as np
