@@ -1,4 +1,3 @@
-from environment import Environment
 from board import Board
 import random
 
