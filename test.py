@@ -1,6 +1,5 @@
 from abstract_agent import Agent
 from tree_agent import DecisionTreeAgent
-from environment import Environment
 from board import Board
 from game_runner import GameRunner
 
